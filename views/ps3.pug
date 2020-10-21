@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title= 'ps3'
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        block content
+            h1= 'Welcome to My PS3, Time for a Joke'
+            if length
+                p POST request: The string is #{String} and has length of #{length}
+            else
+                p GET joke: #{String}.
