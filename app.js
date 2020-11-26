@@ -6,7 +6,7 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const ps4Router = require('./routes/ps4');
+const ps4Router = require('./routes/ps5b');
 
 const app = express();
 
